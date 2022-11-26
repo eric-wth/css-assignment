@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(./fonts)
+    src: url(./fonts/Roboto-Black.tff)
 }
 
 body {
@@ -13,13 +13,15 @@ header {
     padding-left: 180px;
     padding-right: 180px;
     padding-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
 }
 
-header h1{
+header h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #F9FAF8;
     padding: 0;
@@ -27,6 +29,7 @@ header h1{
 }
 
 header nav a {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     padding-top: 10px;
@@ -34,6 +37,7 @@ header nav a {
 }
 
 .section2 {
+    font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
     padding-left: 180px;
     padding-right: 195px;
@@ -46,6 +50,7 @@ header nav a {
 }
 
 .mainText {
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 800; /* extra bold */
     color: #F9FAF8;
@@ -54,10 +59,12 @@ header nav a {
 }
 
 .section2Text {
+    font-family: 'Roboto', sans-serif;
     padding-right: 20px;
 }
 
 .secondaryText {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     max-width: 45ch;
@@ -77,10 +84,12 @@ header nav a {
 }
 
 .imagePlaceholder p {
+    font-family: 'Roboto', sans-serif;
     margin-top: 70px;
 }
 
 .signUp {
+    font-family: 'Roboto', sans-serif;
     background-color: #3882F6;  
     border-radius: 10%;
     color: white;
@@ -96,6 +105,7 @@ header nav a {
 }
 
 .rndInfo h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -113,12 +123,14 @@ header nav a {
 }
 
 .infoBoxText {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #E5E7EB;
+    color: #9fa1a3;
     text-align: left;
     margin: 0;
+    margin-right: 20px;
     padding: 0;
-    max-width: 18ch;
+    max-width: 16ch;
 }
 
 .quoteSectionContainer {    
@@ -126,6 +138,7 @@ header nav a {
 }
 
 .quoteSection {
+    font-family: 'Roboto', sans-serif;
     padding: 20px;
     margin: auto;
     text-align: left;
@@ -137,6 +150,7 @@ header nav a {
 }
 
 .quoteAuthor {
+    font-family: 'Roboto', sans-serif;
     text-align: right;
     font-weight: bold;
 }
@@ -153,6 +167,7 @@ header nav a {
 }
 
 .ctaText {
+    font-family: 'Roboto', sans-serif;
     margin-left: auto;
     padding-right: 170px;
     padding-top: 10px;
@@ -176,6 +191,7 @@ header nav a {
 }
 
 .signUp2 {
+    font-family: 'Roboto', sans-serif;
     background-color: #3882F6;
     border: 2px solid white;    
     border-radius: 10%;
@@ -187,6 +203,7 @@ header nav a {
 }
 
 footer {
+    font-family: 'Roboto', sans-serif;
     padding: 20px;
     background-color: #1F2937;
     color: white;
