@@ -4,33 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Links & Images</title>
+        <title>Professional Portfolio</title>
         <link rel="stylesheet" href="./style.css">
       </head>
 
     <body>
         <header>
             <a href="./index.html">
-                <h1>Header logo</h1>
+                <h1>Eric's Porfolio</h1>
             </a>
             <nav>                
-                <a href="./page1.html">header link one</a>
-                <a href="./page2.html">header link two</a>
-                <a href="./page3.html">header link three</a>
+                <a href="./contactMe.html" class="contactMe">Contact Me</a>
             </nav>
         </header>
         
         <main>
             <section class="section2">
                 <div class="hero">
-                    <div class="section2Text">
-                        <h1 class="mainText">This website is awesome</h1>
-                        <p class="secondaryText">This website has some subtext that goes here under the
-                            main title. It's a smaller font and the color is lower
-                            contrast.
+                    <aside class="section2Text">
+                        <h1 class="mainText">This is my professional portfolio</h1>
+                        <p class="secondaryText">
+                            This porfolio showcases the technologies I am proficient in
+                            and the projects that I have done.
                         </p>
-                        <a href="#" class="signUp">Sign up</a>
-                    </div>
+                        <a href="./contactMe.html" class="contactMe">Contact me</a>
+                    </aside>
         
                     <div class="imagePlaceholder">
                         <p>This is a placeholder for an image on homepage.</p>
@@ -39,50 +37,48 @@
             </section>
     
             <section class="rndInfo">
-                <h1>Some random information</h1>
-    
+                <h1>Previous Projects</h1>               
                 <div class="infoBoxes">
-                    <div>
-                        <div class="infoBox"></div>
-                        <p class="infoBoxText">this is some subtext under an illustration or image</p>
-                    </div>
-        
-                    <div>
-                        <div class="infoBox"></div>
-                        <p class="infoBoxText">this is some subtext under an illustration or image</p>
-                    </div>
-        
-                    <div>
-                        <div class="infoBox"></div>
-                        <p class="infoBoxText">this is some subtext under an illustration or image</p>
-                    </div>
-        
-                    <div>
-                        <div class="infoBox"></div>
-                        <p class="infoBoxText">this is some subtext under an illustration or image</p>
-                    </div>
+                    <aside>
+                        <img src="./images/desktop-design.jpg" class="infoBox">
+                    </aside>
+
+                    <aside>
+                        <p class="infoBoxText">
+                            This is a landing page for a fictious product called "manage".
+                            I built this landing page with Next.js and TailwindCSS.
+                        </p>
+                    </aside>
                 </div>            
+            </section>
+
+            <section class="technologiesSection">
+                <article>
+                    <h1>Technologies</h1>
+                    <p>I am proficient in the following technologies:</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS (TailwindCSS)</li>
+                        <li>JavaScript (React.js & Next.js)</li>
+                    </ul>
+                </article>
             </section>
     
             <section class="quoteSectionContainer">
-                <div class="quoteSection">
-                    <p>This is an inspiring quote, or a testimonial from a
-                        customer. Maybe it's just filling up space, or maybe
-                        people will actually read it. Who knows? All I know
-                        us that it looks nice.
-                    </p>
-                    <p class="quoteAuthor">-Thor</p>
-                </div>            
+                <blockquote class="quoteSection">
+                    The art of making art is putting it together piece by piece.
+                    <p class="quoteAuthor">-Unknown</p>
+                </blockquote>
             </section>
     
             <section class="cta">
                 <div class="ctaText">
-                    <h1>Call to action! It's time!</h1>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <h1>Get in touch!</h1>
+                    <p>For all your web development needs get in touch in with me</p>
                 </div>
     
                 <div class="ctaLink">
-                    <a href="#" class="signUp2">Sign up</a>
+                    <a href="./contactMe.html" class="contactMe2">Contact me</a>
                 </div>
             </section>
         </main>       
